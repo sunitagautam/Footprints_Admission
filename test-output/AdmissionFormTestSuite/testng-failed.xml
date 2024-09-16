@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [AdmissionFormTestSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="sBrowser" value="chrome"/>
+  <test thread-count="1" parallel="tests" name="AdmissionFormTests(failed)">
+    <classes>
+      <class name="admission_onlineFormTestScripts.AdmissionFormExcel_TestScripts">
+        <methods>
+          <include name="printReport"/>
+          <include name="openBrowser"/>
+          <include name="test1"/>
+          <include name="openApplication"/>
+          <include name="handleTestResult"/>
+          <include name="OpenAdmisisonForm_Page"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- admission_onlineFormTestScripts.AdmissionFormExcel_TestScripts -->
+    </classes>
+  </test> <!-- AdmissionFormTests(failed) -->
+</suite> <!-- Failed suite [AdmissionFormTestSuite] -->

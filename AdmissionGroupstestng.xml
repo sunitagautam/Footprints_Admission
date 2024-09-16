@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <parameter name="sBrowser" value="chrome"/>
+  
+  <test name="Test" thread-count="3">
+    <groups>
+      <run>
+        <include name="Sanity Testing"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="admission_onlineFormTestScripts.Admission_FormTestScripts"/>
+    </classes>
+  </test>
+</suite>
