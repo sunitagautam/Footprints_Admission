@@ -42,9 +42,13 @@ public abstract class BaseTest implements IAutoConstant {
     }
 
     @BeforeMethod
-    public void openApplication() {
-        driver.get(Admission_URL);
-    }
+    // for regular Admission
+    //public void openApplication() {
+    //    driver.get(Admission_URL);
+    //}
+   public void openApplicationForm_Corporate() {
+       driver.get(Corporate_Admission_URL);
+   }
 
     @AfterMethod
     public void handleTestResult(ITestResult res) {

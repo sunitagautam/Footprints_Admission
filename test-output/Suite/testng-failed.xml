@@ -4,17 +4,17 @@
   <parameter name="sBrowser" value="chrome"/>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="admission_onlineFormTestScripts.AdmissionFormExcel_TestScripts">
+      <class name="admission_onlineFormTestScripts.Corporate_Admission_TestScripts">
         <methods>
           <include name="printReport"/>
           <include name="openBrowser"/>
-          <include name="Admission"/>
-          <include name="openApplication"/>
+          <include name="openApplicationForm_Corporate"/>
           <include name="handleTestResult"/>
-          <include name="OpenAdmisisonForm_Page"/>
+          <include name="DropDownSelection" invocation-numbers="0"/>
+          <include name="Open_CorporateAdmisisonForm"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- admission_onlineFormTestScripts.AdmissionFormExcel_TestScripts -->
+      </class> <!-- admission_onlineFormTestScripts.Corporate_Admission_TestScripts -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
