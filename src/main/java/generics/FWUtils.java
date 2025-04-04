@@ -21,6 +21,9 @@ public class FWUtils {
     private static WebDriver driver;
 
     public FWUtils(WebDriver driver) {
+    	if (driver == null) {
+            throw new IllegalArgumentException("WebDriver cannot be null.");
+        }
         this.driver = driver;
     }
 
@@ -115,6 +118,9 @@ public class FWUtils {
      * Scrolls down the page.
      */
     public static void scrollDown() {
+    	 if (driver == null) {
+             throw new IllegalStateException("WebDriver is not initialized.");
+         }
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
     }
@@ -123,6 +129,10 @@ public class FWUtils {
      * Scrolls up to the top of the page.
      */
     public void scrollUp() {
+    	
+    	 if (driver == null) {
+             throw new IllegalStateException("WebDriver is not initialized.");
+         }
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollTo(document.body.scrollHeight, 0)");
     }
@@ -131,6 +141,10 @@ public class FWUtils {
      * Scrolls horizontally by 250 pixels.
      */
     public void scrollHorizontally() {
+    	if (driver == null) {
+            throw new IllegalStateException("WebDriver is not initialized.");
+        }
+
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(250,0)");
     }
@@ -139,6 +153,10 @@ public class FWUtils {
      * Scrolls horizontally to a specific element.
      */
     public void scrollHorizontallyToElement(String elementId) {
+    	if (driver == null) {
+            throw new IllegalStateException("WebDriver is not initialized.");
+        }
+
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("document.getElementById(arguments[0]).scrollLeft += 250", elementId);
     }

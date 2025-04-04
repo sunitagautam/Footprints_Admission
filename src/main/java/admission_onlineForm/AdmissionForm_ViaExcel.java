@@ -34,7 +34,7 @@ public class AdmissionForm_ViaExcel extends BaseTest{
 
 	@FindBy(id="admission_id")
 	WebElement admisionID;
-	@FindBy(id="btn_step_0")
+	@FindBy(xpath="//*[@id='btn_step_0']")
 	WebElement nextBtn1;
 
 	//Validations Message
@@ -80,6 +80,8 @@ public class AdmissionForm_ViaExcel extends BaseTest{
 	WebElement monthSelect_dropdown;
 	@FindBy(xpath="//*[@id='enrollment_date_root']//div//div//div//div//div[1]//select[2]//option[10]")
 	WebElement monthSelected; //October
+	@FindBy(xpath="//*[@id='enrollment_date_root']//div//div//div//div//div[1]//div[2]")
+	WebElement nextMonth_arrow;
 	@FindBy(xpath="//*[@id='enrollment_date_table']//tbody//tr[4]//td[6]//div")
 	WebElement joiningDate;
 	@FindBy(id="length")
@@ -139,7 +141,7 @@ public class AdmissionForm_ViaExcel extends BaseTest{
 	WebElement father_employer;
 	@FindBy(id="father_not_working")
 	WebElement checkbox_WorkingF;
-	@FindBy(id="Father_NA")
+	@FindBy(id="father_not_required") 
 	WebElement skipDetails_checkboxF;
 	@FindBy(id="father_name-error")
 	WebElement fname_ErrorMsg;
@@ -172,7 +174,7 @@ public class AdmissionForm_ViaExcel extends BaseTest{
 
 	@FindBy(name="btn_reset_1")
 	WebElement backBtn_step1;
-	@FindBy(id="btn_step_1")
+	@FindBy(xpath="//*[@id='btn_step_1']")
 	WebElement nextBtn_step1;
 
 	//Photo validations Messages: 
@@ -187,11 +189,11 @@ public class AdmissionForm_ViaExcel extends BaseTest{
 	@FindBy(xpath ="//*[@id='validation-step3']/div[1]/div[1]")
 	WebElement capture_AdmissionID;
 
-	@FindBy(xpath ="//*[@id='validation-step3']//div[2]//div[2]//div[1]//div[4]/button")
+	@FindBy(xpath ="//*[@id='validation-step3']//div[2]//div[4]//div[1]//div[4]/button")
 	WebElement choosePlan_LongTerm;
 	@FindBy(id="full_payment_checkbox_V1")
 	WebElement v1_FullInvoice;
-	@FindBy(xpath ="//*[@id='validation-step3']//div[2]//div[2]//div[2]//div[4]/button")
+	@FindBy(xpath ="//*[@id='validation-step3']//div[2]//div[4]//div[2]//div[4]/button")
 	WebElement choosePlan_ShortTerm;
 	@FindBy(id="full_payment_checkbox_V2")
 	WebElement v2_FullInvoice;
@@ -214,7 +216,11 @@ public class AdmissionForm_ViaExcel extends BaseTest{
 	WebElement ageMsg_EveningProgram;
 
 
-
+//promotional Code***************
+	@FindBy(id="promotion_code")
+	WebElement promotion_code;
+	@FindBy(id="btn_promotional")
+	WebElement promotion_ApplyBtn;
 
 
 
@@ -257,7 +263,7 @@ public class AdmissionForm_ViaExcel extends BaseTest{
 	//SC_001_TC_003
 
 	
-	public void setChild_form(String centers,String socialMedia,String gender,String bloodGp,String program,String dis_type,String state,
+	public void setSiblingChild_form(String centers,String socialMedia,String gender,String bloodGp,String program,String dis_type,String state,
 			String referenceAdmissionID,String firstName,String lastName,String allergies,String flat, String landMark,String city,
 			String pcode,String fName,String fEmailID,String fMobile,String fEmployerName,String mName,String mEmailID,
 			String mMobile, String mEmployerName) throws InterruptedException, IOException {
@@ -269,7 +275,6 @@ public class AdmissionForm_ViaExcel extends BaseTest{
 
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#admission_source")));
 		Select select = new Select(adSource);
-		//select.selectByVisibleText("Facebook");
 		adSource.sendKeys(socialMedia);
 
 		Select select1 = new Select(gender_dropdown);
@@ -290,6 +295,7 @@ public class AdmissionForm_ViaExcel extends BaseTest{
 		year_2022.click();
 		select_DOB.click();
 		joiningDate_Calendar.click();
+		nextMonth_arrow.click();
 		joiningDate.click();
 
 		//wait.until(ExpectedConditions.visibilityOf(employee_ReferenceID_dropdown));
@@ -356,7 +362,189 @@ public class AdmissionForm_ViaExcel extends BaseTest{
 		}
 	}
 	
+	public void setSingleChild_form(String centers,String socialMedia,String gender,String bloodGp,String program,String dis_type,String state,
+			String firstName,String lastName,String allergies,String flat, String landMark,String city,
+			String pcode,String mName,String mEmailID,
+			String mMobile, String mEmployerName) throws InterruptedException, IOException {
+		//sibling discount & full day child,v2plan
+		Select select0 =new Select(selectCenter_dropdown);
+		selectCenter_dropdown.sendKeys(centers);
+		wait.until(ExpectedConditions.visibilityOf(nextBtn1));
+		nextBtn1.click();
 
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#admission_source")));
+		Select select = new Select(adSource);
+		adSource.sendKeys(socialMedia);
+
+		Select select1 = new Select(gender_dropdown);
+		gender_dropdown.sendKeys(gender);
+		Select select2 = new Select(blood_dropdown);
+		blood_dropdown.sendKeys(bloodGp);
+		Select select3 = new Select(program_dropdown);
+		program_dropdown.sendKeys(program);
+		Select select4 = new Select(discount_dropdown);
+		discount_dropdown.sendKeys(dis_type);
+
+		wait.until(ExpectedConditions.visibilityOf(state_dropdown));
+		Select select5 = new Select(state_dropdown);
+		state_dropdown.sendKeys(state);
+
+		dOB.click();
+		select_year.click();
+		year_2022.click();
+		select_DOB.click();
+		joiningDate_Calendar.click();
+		nextMonth_arrow.click();
+		joiningDate.click();
+
+		wait.until(ExpectedConditions.visibilityOf(childName));
+		childName.sendKeys(firstName);
+		lastName_Child.sendKeys(lastName);
+		allgergies.sendKeys(allergies);
+		flatNo.sendKeys(flat);
+		landmark.sendKeys(landMark);
+		cityName.sendKeys(city);
+		wait.until(ExpectedConditions.visibilityOf(pincode));
+		pincode.sendKeys(pcode);
+		
+		//Father details:
+		wait.until(ExpectedConditions.visibilityOf(skipDetails_checkboxF));
+		skipDetails_checkboxF.click();
+		
+		//Mother details
+		wait.until(ExpectedConditions.visibilityOf(motherName));
+		motherName.sendKeys(mName);
+		motherEmail.sendKeys(mEmailID);
+		motherPhone.sendKeys(mMobile);
+		mother_employer.sendKeys(mEmployerName);
+        Images(); // photo upload method
+        
+		wait.until(ExpectedConditions.visibilityOf(nextBtn_step1));
+		nextBtn_step1.click();
+
+		wait.until(ExpectedConditions.visibilityOf(capture_AdmissionID));
+		System.out.println("Admission ID Message is  " + capture_AdmissionID.getText());
+		//	v2_FullInvoice.click();
+		choosePlan_ShortTerm.click();
+		wait.until(ExpectedConditions.visibilityOf(selectedplanMsg));
+		System.out.println("display message after selected plan successfully.  "+selectedplanMsg.getText());
+
+		wait.until(ExpectedConditions.elementToBeClickable(checkbox_TermCond));
+		checkbox_TermCond.click();
+		acceptContinue_btn.click();
+
+		List<WebElement> tRows = driver.findElements(By.tagName("tr"));
+		int countRows = tRows.size();
+		System.out.println("Total no of Rows: " + countRows);
+
+		List<WebElement> tColumns = driver.findElements(By.tagName("th"));
+		int countColumns = tColumns.size();
+		System.out.println("Total no of Columns: " + countColumns);
+
+		for (int i = 0; i < tRows.size(); i++) {
+			List<WebElement> tData = driver.findElements(By.tagName("td"));
+			for (int j = 0; j < tData.size(); j++) {
+				System.out.println(tData.get(j).getText());
+			}
+			wait.until(ExpectedConditions.visibilityOf(paymentJSON));
+			System.out.println("Print the Payment JSON "+ paymentJSON.getText());
+			okBtn.click();
+		}
+	}
+	//No Discount Applied***************************************************
+	public void setChild_NoDiscountApplied(String centers,String socialMedia,String gender,String bloodGp,String program,String state,
+		String firstName,String lastName,String allergies,String flat, String landMark,String city,
+			String pcode,String fName,String fEmailID,String fMobile,String fEmployerName,String mName,String mEmailID,
+			String mMobile, String mEmployerName) throws InterruptedException, IOException {
+		Select select0 =new Select(selectCenter_dropdown);
+		selectCenter_dropdown.sendKeys(centers);
+		wait.until(ExpectedConditions.visibilityOf(nextBtn1));
+		nextBtn1.click();
+
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#admission_source")));
+		Select select = new Select(adSource);
+		adSource.sendKeys(socialMedia);
+
+		Select select1 = new Select(gender_dropdown);
+		gender_dropdown.sendKeys(gender);
+		Select select2 = new Select(blood_dropdown);
+		blood_dropdown.sendKeys(bloodGp);
+		Select select3 = new Select(program_dropdown);
+		program_dropdown.sendKeys(program);
+
+		wait.until(ExpectedConditions.visibilityOf(state_dropdown));
+		Select select5 = new Select(state_dropdown);
+		state_dropdown.sendKeys(state);
+
+		dOB.click();
+		select_year.click();
+		year_2022.click();
+		select_DOB.click();
+		joiningDate_Calendar.click();
+		nextMonth_arrow.click();
+		joiningDate.click();
+
+		wait.until(ExpectedConditions.visibilityOf(childName));
+		childName.sendKeys(firstName);
+		lastName_Child.sendKeys(lastName);
+		allgergies.sendKeys(allergies);
+		flatNo.sendKeys(flat);
+		landmark.sendKeys(landMark);
+		cityName.sendKeys(city);
+		wait.until(ExpectedConditions.visibilityOf(pincode));
+		pincode.sendKeys(pcode);
+		//Father details:
+		wait.until(ExpectedConditions.visibilityOf(fatherName));
+		fatherName.sendKeys(fName);
+		fatherEmail.sendKeys(fEmailID);
+		fatherPhone.sendKeys(fMobile);
+		father_employer.sendKeys(fEmployerName);
+
+		//Mother details
+		wait.until(ExpectedConditions.visibilityOf(motherName));
+		motherName.sendKeys(mName);
+		motherEmail.sendKeys(mEmailID);
+		motherPhone.sendKeys(mMobile);
+		mother_employer.sendKeys(mEmployerName);
+        Images(); // photo upload method
+        
+		wait.until(ExpectedConditions.visibilityOf(nextBtn_step1));
+		nextBtn_step1.click();
+
+		wait.until(ExpectedConditions.visibilityOf(capture_AdmissionID));
+		System.out.println("Admission ID Message is  " + capture_AdmissionID.getText());
+		//Promotional code *************
+		promotion_code.sendKeys("tPlNdO");
+	    promotion_ApplyBtn.click();
+
+		//	v2_FullInvoice.click();
+		choosePlan_ShortTerm.click();
+		wait.until(ExpectedConditions.visibilityOf(selectedplanMsg));
+		System.out.println("display message after selected plan successfully.  "+selectedplanMsg.getText());
+
+		wait.until(ExpectedConditions.elementToBeClickable(checkbox_TermCond));
+		checkbox_TermCond.click();
+		acceptContinue_btn.click();
+
+		List<WebElement> tRows = driver.findElements(By.tagName("tr"));
+		int countRows = tRows.size();
+		System.out.println("Total no of Rows: " + countRows);
+
+		List<WebElement> tColumns = driver.findElements(By.tagName("th"));
+		int countColumns = tColumns.size();
+		System.out.println("Total no of Columns: " + countColumns);
+
+		for (int i = 0; i < tRows.size(); i++) {
+			List<WebElement> tData = driver.findElements(By.tagName("td"));
+			for (int j = 0; j < tData.size(); j++) {
+				System.out.println(tData.get(j).getText());
+			}
+			wait.until(ExpectedConditions.visibilityOf(paymentJSON));
+			System.out.println("Print the Payment JSON "+ paymentJSON.getText());
+			okBtn.click();
+		}
+	}
+	//******************************Upload Images****************************************************************
 	public void Images() throws IOException, InterruptedException {
 		Actions actions = new Actions(driver);
 		wait.until(ExpectedConditions.visibilityOf(childPhoto));	            

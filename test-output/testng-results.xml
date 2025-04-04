@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="0" failed="1" skipped="8">
+<testng-results ignored="0" total="5" passed="0" failed="1" skipped="4">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-06T12:19:36 IST" name="Suite" finished-at="2024-11-06T12:53:51 IST" duration-ms="2055298">
+  <suite started-at="2025-03-27T11:52:20 IST" name="Suite" finished-at="2025-03-27T11:54:14 IST" duration-ms="114255">
     <groups>
     </groups>
-    <test started-at="2024-11-06T12:19:36 IST" name="Test" finished-at="2024-11-06T12:53:51 IST" duration-ms="2055298">
-      <class name="admission_onlineFormTestScripts.Corporate_Admission_TestScripts">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:19:36 IST" name="openBrowser" finished-at="2024-11-06T12:19:38 IST" duration-ms="2112" status="PASS">
+    <test started-at="2025-03-27T11:52:20 IST" name="Test" finished-at="2025-03-27T11:54:14 IST" duration-ms="114255">
+      <class name="admission_onlineFormTestScripts.ExcelData_NoDiscountAdmission">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:admission_onlineFormTestScripts.ExcelData_NoDiscountAdmission@2892d68]" started-at="2025-03-27T11:52:20 IST" name="openBrowser" finished-at="2025-03-27T11:52:22 IST" duration-ms="2215" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,124 +18,144 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="openApplicationForm_Corporate()[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:19:40 IST" name="openApplicationForm_Corporate" finished-at="2024-11-06T12:19:41 IST" duration-ms="1399" status="PASS">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:admission_onlineFormTestScripts.ExcelData_NoDiscountAdmission@2892d68]" started-at="2025-03-27T11:52:25 IST" name="openApplication" finished-at="2025-03-27T11:52:29 IST" duration-ms="4177" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openApplicationForm_Corporate -->
-        <test-method is-config="true" signature="Open_CorporateAdmisisonForm()[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:19:41 IST" name="Open_CorporateAdmisisonForm" finished-at="2024-11-06T12:19:41 IST" duration-ms="11" status="PASS">
+        </test-method> <!-- openApplication -->
+        <test-method is-config="true" signature="OpenAdmisisonForm_Page()[pri:0, instance:admission_onlineFormTestScripts.ExcelData_NoDiscountAdmission@2892d68]" started-at="2025-03-27T11:52:29 IST" name="OpenAdmisisonForm_Page" finished-at="2025-03-27T11:52:29 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Open_CorporateAdmisisonForm -->
-        <test-method signature="DropDownSelection(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:19:41 IST" name="DropDownSelection" data-provider="admissionFormData" finished-at="2024-11-06T12:53:51 IST" duration-ms="2049279" status="FAIL">
+        </test-method> <!-- OpenAdmisisonForm_Page -->
+        <test-method signature="InputAdmissionForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:admission_onlineFormTestScripts.ExcelData_NoDiscountAdmission@2892d68]" started-at="2025-03-27T11:52:29 IST" name="InputAdmissionForm" data-provider="admissionFormData_NoDiscountApplied" finished-at="2025-03-27T11:54:14 IST" duration-ms="105488" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Facebook]]>
+                <![CDATA[D-Block, Sector 51, Noida]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Boy]]>
+                <![CDATA[Facebook]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[A +ve]]>
+                <![CDATA[Boy]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Full Day (9:00 AM To 6:30 PM)]]>
+                <![CDATA[A +ve]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Uttar Pradesh]]>
+                <![CDATA[Half Day (9:00 AM - 12:30 PM)]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[TEAD]]>
+                <![CDATA[Uttar Pradesh]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[Singh]]>
+                <![CDATA[Mahi]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[Capsicum]]>
+                <![CDATA[Singh]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[Flat N1202]]>
+                <![CDATA[Capsicum]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[DPS School]]>
+                <![CDATA[Flat N1202]]>
               </value>
             </param>
             <param index="10">
               <value>
-                <![CDATA[Noida]]>
+                <![CDATA[DPS School]]>
               </value>
             </param>
             <param index="11">
               <value>
-                <![CDATA[201301]]>
+                <![CDATA[Noida]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[Shivam]]>
+                <![CDATA[201301]]>
               </value>
             </param>
             <param index="13">
               <value>
-                <![CDATA[shivam1@gmail.com]]>
+                <![CDATA[Mahiid]]>
               </value>
             </param>
             <param index="14">
               <value>
-                <![CDATA[9888543213]]>
+                <![CDATA[fi@gmail.com]]>
               </value>
             </param>
             <param index="15">
               <value>
-                <![CDATA[codeBlock]]>
+                <![CDATA[9569604010]]>
               </value>
             </param>
             <param index="16">
               <value>
-                <![CDATA[Mamta]]>
+                <![CDATA[codeBlock]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Mehdb]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[mfi@gmail.com]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[9951497605]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[QueueBuster]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=130.0.6723.92)
+              <![CDATA[invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=134.0.6998.166)
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a74aaacdb9341c1c183c4844c4b540a8, findElement {value=//html//body//div[5]//p[contains(text(), 'Education')], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53006}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53006/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a74aaacdb9341c1c183c4844c4b540a8]]>
+Command: [e5aae6d744e8642d912efe2ad42507e8, findElement {value=//html//body//div[5]//p[contains(text(), 'Education')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53031}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53031/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5aae6d744e8642d912efe2ad42507e8]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=130.0.6723.92)
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=134.0.6998.166)
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a74aaacdb9341c1c183c4844c4b540a8, findElement {value=//html//body//div[5]//p[contains(text(), 'Education')], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53006}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53006/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a74aaacdb9341c1c183c4844c4b540a8
+Command: [e5aae6d744e8642d912efe2ad42507e8, findElement {value=//html//body//div[5]//p[contains(text(), 'Education')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53031}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53031/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5aae6d744e8642d912efe2ad42507e8
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -152,13 +172,13 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy21.toString(Unknown Source)
-at java.base/java.lang.String.valueOf(String.java:4465)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:295)
-at java.base/java.lang.String.valueOf(String.java:4465)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225)
-at admission_onlineForm.Corporate_Admissions.setChild_form(Corporate_Admissions.java:332)
-at admission_onlineFormTestScripts.Corporate_Admission_TestScripts.DropDownSelection(Corporate_Admission_TestScripts.java:47)
+at jdk.proxy2/jdk.proxy2.$Proxy22.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+at admission_onlineForm.AdmissionForm_ViaExcel.setChild_NoDiscountApplied(AdmissionForm_ViaExcel.java:542)
+at admission_onlineFormTestScripts.ExcelData_NoDiscountAdmission.InputAdmissionForm(ExcelData_NoDiscountAdmission.java:50)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -187,44 +207,40 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DropDownSelection -->
-        <test-method is-config="true" signature="handleTestResult(org.testng.ITestResult)[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="handleTestResult" finished-at="2024-11-06T12:53:51 IST" duration-ms="24" status="PASS">
+        </test-method> <!-- InputAdmissionForm -->
+        <test-method is-config="true" signature="handleTestResult(org.testng.ITestResult)[pri:0, instance:admission_onlineFormTestScripts.ExcelData_NoDiscountAdmission@2892d68]" started-at="2025-03-27T11:54:14 IST" name="handleTestResult" finished-at="2025-03-27T11:54:14 IST" duration-ms="125" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=DropDownSelection status=FAILURE method=Corporate_Admission_TestScripts.DropDownSelection(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68] output={null}]]]>
+                <![CDATA[[TestResult name=InputAdmissionForm status=FAILURE method=ExcelData_NoDiscountAdmission.InputAdmissionForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:admission_onlineFormTestScripts.ExcelData_NoDiscountAdmission@2892d68] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handleTestResult -->
-        <test-method is-config="true" signature="openApplicationForm_Corporate()[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="openApplicationForm_Corporate" finished-at="2024-11-06T12:53:51 IST" duration-ms="2" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:admission_onlineFormTestScripts.ExcelData_NoDiscountAdmission@2892d68]" started-at="2025-03-27T11:54:14 IST" name="openApplication" finished-at="2025-03-27T11:54:14 IST" duration-ms="5" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=130.0.6723.92)
+              <![CDATA[invalid session id
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a74aaacdb9341c1c183c4844c4b540a8, get {url=https://staging-franchise.footprintseducation.in/online_form?ckey=29txyab9h0l7i9dol56p3r4a0mukepcytmfp5lu0j7sjndpfgb}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53006}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53006/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a74aaacdb9341c1c183c4844c4b540a8]]>
+Command: [e5aae6d744e8642d912efe2ad42507e8, get {url=https://staging-franchise.footprintseducation.in/online_form}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53031}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53031/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5aae6d744e8642d912efe2ad42507e8]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=130.0.6723.92)
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a74aaacdb9341c1c183c4844c4b540a8, get {url=https://staging-franchise.footprintseducation.in/online_form?ckey=29txyab9h0l7i9dol56p3r4a0mukepcytmfp5lu0j7sjndpfgb}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53006}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53006/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a74aaacdb9341c1c183c4844c4b540a8
+Command: [e5aae6d744e8642d912efe2ad42507e8, get {url=https://staging-franchise.footprintseducation.in/online_form}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53031}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53031/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5aae6d744e8642d912efe2ad42507e8
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -236,7 +252,7 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
 at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:302)
-at generics.BaseTest.openApplicationForm_Corporate(BaseTest.java:50)
+at generics.BaseTest.openApplication(BaseTest.java:52)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -269,15 +285,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openApplicationForm_Corporate -->
-        <test-method is-config="true" signature="Open_CorporateAdmisisonForm()[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="Open_CorporateAdmisisonForm" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1730877831200" status="SKIP">
+        </test-method> <!-- openApplication -->
+        <test-method is-config="true" signature="OpenAdmisisonForm_Page()[pri:0, instance:admission_onlineFormTestScripts.ExcelData_NoDiscountAdmission@2892d68]" started-at="2025-03-27T11:54:14 IST" name="OpenAdmisisonForm_Page" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1743056654937" status="SKIP">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Open_CorporateAdmisisonForm -->
-        <test-method signature="DropDownSelection(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="DropDownSelection" data-provider="admissionFormData" finished-at="2024-11-06T12:53:51 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- OpenAdmisisonForm_Page -->
+        <test-method signature="InputAdmissionForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:admission_onlineFormTestScripts.ExcelData_NoDiscountAdmission@2892d68]" started-at="2025-03-27T11:54:14 IST" name="InputAdmissionForm" data-provider="admissionFormData_NoDiscountApplied" finished-at="2025-03-27T11:54:14 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -364,29 +380,45 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
                 <![CDATA[]]>
               </value>
             </param>
+            <param index="17">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=130.0.6723.92)
+              <![CDATA[invalid session id
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a74aaacdb9341c1c183c4844c4b540a8, get {url=https://staging-franchise.footprintseducation.in/online_form?ckey=29txyab9h0l7i9dol56p3r4a0mukepcytmfp5lu0j7sjndpfgb}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53006}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53006/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a74aaacdb9341c1c183c4844c4b540a8]]>
+Command: [e5aae6d744e8642d912efe2ad42507e8, get {url=https://staging-franchise.footprintseducation.in/online_form}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53031}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53031/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5aae6d744e8642d912efe2ad42507e8]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=130.0.6723.92)
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a74aaacdb9341c1c183c4844c4b540a8, get {url=https://staging-franchise.footprintseducation.in/online_form?ckey=29txyab9h0l7i9dol56p3r4a0mukepcytmfp5lu0j7sjndpfgb}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53006}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53006/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a74aaacdb9341c1c183c4844c4b540a8
+Command: [e5aae6d744e8642d912efe2ad42507e8, get {url=https://staging-franchise.footprintseducation.in/online_form}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53031}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53031/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5aae6d744e8642d912efe2ad42507e8
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -398,7 +430,7 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
 at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:302)
-at generics.BaseTest.openApplicationForm_Corporate(BaseTest.java:50)
+at generics.BaseTest.openApplication(BaseTest.java:52)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -431,23 +463,23 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DropDownSelection -->
-        <test-method is-config="true" signature="handleTestResult(org.testng.ITestResult)[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="handleTestResult" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1730877831219" status="SKIP">
+        </test-method> <!-- InputAdmissionForm -->
+        <test-method is-config="true" signature="handleTestResult(org.testng.ITestResult)[pri:0, instance:admission_onlineFormTestScripts.ExcelData_NoDiscountAdmission@2892d68]" started-at="2025-03-27T11:54:14 IST" name="handleTestResult" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1743056654946" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handleTestResult -->
-        <test-method is-config="true" signature="openApplicationForm_Corporate()[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="openApplicationForm_Corporate" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1730877831239" status="SKIP">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:admission_onlineFormTestScripts.ExcelData_NoDiscountAdmission@2892d68]" started-at="2025-03-27T11:54:14 IST" name="openApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1743056654948" status="SKIP">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openApplicationForm_Corporate -->
-        <test-method is-config="true" signature="Open_CorporateAdmisisonForm()[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="Open_CorporateAdmisisonForm" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1730877831242" status="SKIP">
+        </test-method> <!-- openApplication -->
+        <test-method is-config="true" signature="OpenAdmisisonForm_Page()[pri:0, instance:admission_onlineFormTestScripts.ExcelData_NoDiscountAdmission@2892d68]" started-at="2025-03-27T11:54:14 IST" name="OpenAdmisisonForm_Page" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1743056654950" status="SKIP">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Open_CorporateAdmisisonForm -->
-        <test-method signature="DropDownSelection(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="DropDownSelection" data-provider="admissionFormData" finished-at="2024-11-06T12:53:51 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- OpenAdmisisonForm_Page -->
+        <test-method signature="InputAdmissionForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:admission_onlineFormTestScripts.ExcelData_NoDiscountAdmission@2892d68]" started-at="2025-03-27T11:54:14 IST" name="InputAdmissionForm" data-provider="admissionFormData_NoDiscountApplied" finished-at="2025-03-27T11:54:14 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -534,29 +566,45 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
                 <![CDATA[]]>
               </value>
             </param>
+            <param index="17">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=130.0.6723.92)
+              <![CDATA[invalid session id
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a74aaacdb9341c1c183c4844c4b540a8, get {url=https://staging-franchise.footprintseducation.in/online_form?ckey=29txyab9h0l7i9dol56p3r4a0mukepcytmfp5lu0j7sjndpfgb}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53006}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53006/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a74aaacdb9341c1c183c4844c4b540a8]]>
+Command: [e5aae6d744e8642d912efe2ad42507e8, get {url=https://staging-franchise.footprintseducation.in/online_form}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53031}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53031/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5aae6d744e8642d912efe2ad42507e8]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=130.0.6723.92)
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a74aaacdb9341c1c183c4844c4b540a8, get {url=https://staging-franchise.footprintseducation.in/online_form?ckey=29txyab9h0l7i9dol56p3r4a0mukepcytmfp5lu0j7sjndpfgb}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53006}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53006/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a74aaacdb9341c1c183c4844c4b540a8
+Command: [e5aae6d744e8642d912efe2ad42507e8, get {url=https://staging-franchise.footprintseducation.in/online_form}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53031}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53031/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5aae6d744e8642d912efe2ad42507e8
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -568,7 +616,7 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
 at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:302)
-at generics.BaseTest.openApplicationForm_Corporate(BaseTest.java:50)
+at generics.BaseTest.openApplication(BaseTest.java:52)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -601,23 +649,23 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DropDownSelection -->
-        <test-method is-config="true" signature="openApplicationForm_Corporate()[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="openApplicationForm_Corporate" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1730877831256" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplicationForm_Corporate -->
-        <test-method is-config="true" signature="Open_CorporateAdmisisonForm()[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="Open_CorporateAdmisisonForm" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1730877831256" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Open_CorporateAdmisisonForm -->
-        <test-method is-config="true" signature="handleTestResult(org.testng.ITestResult)[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="handleTestResult" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1730877831256" status="SKIP">
+        </test-method> <!-- InputAdmissionForm -->
+        <test-method is-config="true" signature="handleTestResult(org.testng.ITestResult)[pri:0, instance:admission_onlineFormTestScripts.ExcelData_NoDiscountAdmission@2892d68]" started-at="2025-03-27T11:54:14 IST" name="handleTestResult" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1743056654959" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handleTestResult -->
-        <test-method signature="DropDownSelection(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="DropDownSelection" data-provider="admissionFormData" finished-at="2024-11-06T12:53:51 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:admission_onlineFormTestScripts.ExcelData_NoDiscountAdmission@2892d68]" started-at="2025-03-27T11:54:14 IST" name="openApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1743056654960" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method is-config="true" signature="OpenAdmisisonForm_Page()[pri:0, instance:admission_onlineFormTestScripts.ExcelData_NoDiscountAdmission@2892d68]" started-at="2025-03-27T11:54:14 IST" name="OpenAdmisisonForm_Page" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1743056654962" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAdmisisonForm_Page -->
+        <test-method signature="InputAdmissionForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:admission_onlineFormTestScripts.ExcelData_NoDiscountAdmission@2892d68]" started-at="2025-03-27T11:54:14 IST" name="InputAdmissionForm" data-provider="admissionFormData_NoDiscountApplied" finished-at="2025-03-27T11:54:14 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -704,29 +752,45 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
                 <![CDATA[]]>
               </value>
             </param>
+            <param index="17">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=130.0.6723.92)
+              <![CDATA[invalid session id
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a74aaacdb9341c1c183c4844c4b540a8, get {url=https://staging-franchise.footprintseducation.in/online_form?ckey=29txyab9h0l7i9dol56p3r4a0mukepcytmfp5lu0j7sjndpfgb}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53006}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53006/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a74aaacdb9341c1c183c4844c4b540a8]]>
+Command: [e5aae6d744e8642d912efe2ad42507e8, get {url=https://staging-franchise.footprintseducation.in/online_form}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53031}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53031/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5aae6d744e8642d912efe2ad42507e8]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=130.0.6723.92)
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a74aaacdb9341c1c183c4844c4b540a8, get {url=https://staging-franchise.footprintseducation.in/online_form?ckey=29txyab9h0l7i9dol56p3r4a0mukepcytmfp5lu0j7sjndpfgb}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53006}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53006/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a74aaacdb9341c1c183c4844c4b540a8
+Command: [e5aae6d744e8642d912efe2ad42507e8, get {url=https://staging-franchise.footprintseducation.in/online_form}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53031}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53031/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5aae6d744e8642d912efe2ad42507e8
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -738,7 +802,7 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
 at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:302)
-at generics.BaseTest.openApplicationForm_Corporate(BaseTest.java:50)
+at generics.BaseTest.openApplication(BaseTest.java:52)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -771,19 +835,23 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DropDownSelection -->
-        <test-method is-config="true" signature="handleTestResult(org.testng.ITestResult)[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="handleTestResult" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1730877831258" status="SKIP">
+        </test-method> <!-- InputAdmissionForm -->
+        <test-method is-config="true" signature="handleTestResult(org.testng.ITestResult)[pri:0, instance:admission_onlineFormTestScripts.ExcelData_NoDiscountAdmission@2892d68]" started-at="2025-03-27T11:54:14 IST" name="handleTestResult" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1743056654971" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handleTestResult -->
-        <test-method is-config="true" signature="openApplicationForm_Corporate()[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="openApplicationForm_Corporate" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1730877831262" status="SKIP">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:admission_onlineFormTestScripts.ExcelData_NoDiscountAdmission@2892d68]" started-at="2025-03-27T11:54:14 IST" name="openApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1743056654972" status="SKIP">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openApplicationForm_Corporate -->
-        <test-method signature="DropDownSelection(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="DropDownSelection" data-provider="admissionFormData" finished-at="2024-11-06T12:53:51 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- openApplication -->
+        <test-method is-config="true" signature="OpenAdmisisonForm_Page()[pri:0, instance:admission_onlineFormTestScripts.ExcelData_NoDiscountAdmission@2892d68]" started-at="2025-03-27T11:54:14 IST" name="OpenAdmisisonForm_Page" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1743056654973" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAdmisisonForm_Page -->
+        <test-method signature="InputAdmissionForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:admission_onlineFormTestScripts.ExcelData_NoDiscountAdmission@2892d68]" started-at="2025-03-27T11:54:14 IST" name="InputAdmissionForm" data-provider="admissionFormData_NoDiscountApplied" finished-at="2025-03-27T11:54:14 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -870,29 +938,45 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
                 <![CDATA[]]>
               </value>
             </param>
+            <param index="17">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=130.0.6723.92)
+              <![CDATA[invalid session id
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a74aaacdb9341c1c183c4844c4b540a8, get {url=https://staging-franchise.footprintseducation.in/online_form?ckey=29txyab9h0l7i9dol56p3r4a0mukepcytmfp5lu0j7sjndpfgb}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53006}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53006/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a74aaacdb9341c1c183c4844c4b540a8]]>
+Command: [e5aae6d744e8642d912efe2ad42507e8, get {url=https://staging-franchise.footprintseducation.in/online_form}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53031}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53031/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5aae6d744e8642d912efe2ad42507e8]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=130.0.6723.92)
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a74aaacdb9341c1c183c4844c4b540a8, get {url=https://staging-franchise.footprintseducation.in/online_form?ckey=29txyab9h0l7i9dol56p3r4a0mukepcytmfp5lu0j7sjndpfgb}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53006}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53006/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a74aaacdb9341c1c183c4844c4b540a8
+Command: [e5aae6d744e8642d912efe2ad42507e8, get {url=https://staging-franchise.footprintseducation.in/online_form}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53031}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53031/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5aae6d744e8642d912efe2ad42507e8
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -904,7 +988,7 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
 at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:302)
-at generics.BaseTest.openApplicationForm_Corporate(BaseTest.java:50)
+at generics.BaseTest.openApplication(BaseTest.java:52)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -937,707 +1021,23 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DropDownSelection -->
-        <test-method is-config="true" signature="Open_CorporateAdmisisonForm()[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="Open_CorporateAdmisisonForm" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1730877831263" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Open_CorporateAdmisisonForm -->
-        <test-method is-config="true" signature="handleTestResult(org.testng.ITestResult)[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="handleTestResult" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1730877831264" status="SKIP">
+        </test-method> <!-- InputAdmissionForm -->
+        <test-method is-config="true" signature="handleTestResult(org.testng.ITestResult)[pri:0, instance:admission_onlineFormTestScripts.ExcelData_NoDiscountAdmission@2892d68]" started-at="2025-03-27T11:54:14 IST" name="handleTestResult" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1743056654980" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handleTestResult -->
-        <test-method is-config="true" signature="openApplicationForm_Corporate()[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="openApplicationForm_Corporate" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1730877831281" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplicationForm_Corporate -->
-        <test-method signature="DropDownSelection(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="DropDownSelection" data-provider="admissionFormData" finished-at="2024-11-06T12:53:51 IST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="13">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="14">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="15">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="16">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=130.0.6723.92)
-Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a74aaacdb9341c1c183c4844c4b540a8, get {url=https://staging-franchise.footprintseducation.in/online_form?ckey=29txyab9h0l7i9dol56p3r4a0mukepcytmfp5lu0j7sjndpfgb}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53006}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53006/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a74aaacdb9341c1c183c4844c4b540a8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=130.0.6723.92)
-Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a74aaacdb9341c1c183c4844c4b540a8, get {url=https://staging-franchise.footprintseducation.in/online_form?ckey=29txyab9h0l7i9dol56p3r4a0mukepcytmfp5lu0j7sjndpfgb}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53006}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53006/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a74aaacdb9341c1c183c4844c4b540a8
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:302)
-at generics.BaseTest.openApplicationForm_Corporate(BaseTest.java:50)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DropDownSelection -->
-        <test-method is-config="true" signature="Open_CorporateAdmisisonForm()[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="Open_CorporateAdmisisonForm" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1730877831282" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Open_CorporateAdmisisonForm -->
-        <test-method is-config="true" signature="handleTestResult(org.testng.ITestResult)[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="handleTestResult" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1730877831377" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handleTestResult -->
-        <test-method is-config="true" signature="openApplicationForm_Corporate()[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="openApplicationForm_Corporate" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1730877831378" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplicationForm_Corporate -->
-        <test-method signature="DropDownSelection(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="DropDownSelection" data-provider="admissionFormData" finished-at="2024-11-06T12:53:51 IST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="13">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="14">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="15">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="16">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=130.0.6723.92)
-Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a74aaacdb9341c1c183c4844c4b540a8, get {url=https://staging-franchise.footprintseducation.in/online_form?ckey=29txyab9h0l7i9dol56p3r4a0mukepcytmfp5lu0j7sjndpfgb}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53006}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53006/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a74aaacdb9341c1c183c4844c4b540a8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=130.0.6723.92)
-Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a74aaacdb9341c1c183c4844c4b540a8, get {url=https://staging-franchise.footprintseducation.in/online_form?ckey=29txyab9h0l7i9dol56p3r4a0mukepcytmfp5lu0j7sjndpfgb}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53006}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53006/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a74aaacdb9341c1c183c4844c4b540a8
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:302)
-at generics.BaseTest.openApplicationForm_Corporate(BaseTest.java:50)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DropDownSelection -->
-        <test-method is-config="true" signature="Open_CorporateAdmisisonForm()[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="Open_CorporateAdmisisonForm" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1730877831379" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Open_CorporateAdmisisonForm -->
-        <test-method is-config="true" signature="Open_CorporateAdmisisonForm()[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="Open_CorporateAdmisisonForm" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1730877831380" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Open_CorporateAdmisisonForm -->
-        <test-method is-config="true" signature="handleTestResult(org.testng.ITestResult)[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="handleTestResult" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1730877831380" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handleTestResult -->
-        <test-method is-config="true" signature="openApplicationForm_Corporate()[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="openApplicationForm_Corporate" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1730877831380" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplicationForm_Corporate -->
-        <test-method signature="DropDownSelection(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="DropDownSelection" data-provider="admissionFormData" finished-at="2024-11-06T12:53:51 IST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="13">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="14">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="15">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="16">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=130.0.6723.92)
-Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a74aaacdb9341c1c183c4844c4b540a8, get {url=https://staging-franchise.footprintseducation.in/online_form?ckey=29txyab9h0l7i9dol56p3r4a0mukepcytmfp5lu0j7sjndpfgb}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53006}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53006/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a74aaacdb9341c1c183c4844c4b540a8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=130.0.6723.92)
-Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a74aaacdb9341c1c183c4844c4b540a8, get {url=https://staging-franchise.footprintseducation.in/online_form?ckey=29txyab9h0l7i9dol56p3r4a0mukepcytmfp5lu0j7sjndpfgb}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53006}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53006/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a74aaacdb9341c1c183c4844c4b540a8
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:302)
-at generics.BaseTest.openApplicationForm_Corporate(BaseTest.java:50)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DropDownSelection -->
-        <test-method is-config="true" signature="handleTestResult(org.testng.ITestResult)[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="handleTestResult" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1730877831403" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handleTestResult -->
-        <test-method is-config="true" signature="openApplicationForm_Corporate()[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="openApplicationForm_Corporate" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1730877831459" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplicationForm_Corporate -->
-        <test-method signature="DropDownSelection(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="DropDownSelection" data-provider="admissionFormData" finished-at="2024-11-06T12:53:51 IST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="13">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="14">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="15">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="16">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=130.0.6723.92)
-Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a74aaacdb9341c1c183c4844c4b540a8, get {url=https://staging-franchise.footprintseducation.in/online_form?ckey=29txyab9h0l7i9dol56p3r4a0mukepcytmfp5lu0j7sjndpfgb}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53006}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53006/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a74aaacdb9341c1c183c4844c4b540a8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=130.0.6723.92)
-Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a74aaacdb9341c1c183c4844c4b540a8, get {url=https://staging-franchise.footprintseducation.in/online_form?ckey=29txyab9h0l7i9dol56p3r4a0mukepcytmfp5lu0j7sjndpfgb}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53006}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53006/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a74aaacdb9341c1c183c4844c4b540a8
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:302)
-at generics.BaseTest.openApplicationForm_Corporate(BaseTest.java:50)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DropDownSelection -->
-        <test-method is-config="true" signature="Open_CorporateAdmisisonForm()[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="Open_CorporateAdmisisonForm" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1730877831460" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Open_CorporateAdmisisonForm -->
-        <test-method is-config="true" signature="handleTestResult(org.testng.ITestResult)[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="handleTestResult" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1730877831463" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handleTestResult -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1730877831506" status="SKIP">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:admission_onlineFormTestScripts.ExcelData_NoDiscountAdmission@2892d68]" started-at="2025-03-27T11:54:14 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1743056654981" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="printReport()[pri:0, instance:admission_onlineFormTestScripts.Corporate_Admission_TestScripts@2892d68]" started-at="2024-11-06T12:53:51 IST" name="printReport" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1730877831694" status="SKIP">
+        <test-method is-config="true" signature="printReport()[pri:0, instance:admission_onlineFormTestScripts.ExcelData_NoDiscountAdmission@2892d68]" started-at="2025-03-27T11:54:15 IST" name="printReport" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1743056655038" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printReport -->
-      </class> <!-- admission_onlineFormTestScripts.Corporate_Admission_TestScripts -->
+      </class> <!-- admission_onlineFormTestScripts.ExcelData_NoDiscountAdmission -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -58,7 +58,7 @@ public class AdmissionFormExcel_TestScripts extends BaseTest{
 		String mEmployerName= FWUtils.read_XL_Data(READ_XL_DATA,"AdmissionFormData",i,22);
 		
 		AdmissionForm_ViaExcel ad_form = new AdmissionForm_ViaExcel(driver);
-		ad_form.setChild_form(centers,socialMedia,gender,bloodGp,program,dis_Type,state ,referenceAdmissionID,
+		ad_form.setSiblingChild_form(centers,socialMedia,gender,bloodGp,program,dis_Type,state ,referenceAdmissionID,
 				firstName, lastName,allergies,flat,landMark,city,pcode,fName,fEmailID,fMobile,fEmployerName,mName,mEmailID,mMobile,mEmployerName);
 
 	}

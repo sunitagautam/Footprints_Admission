@@ -18,6 +18,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public abstract class BaseTest implements IAutoConstant {
     // Non-static WebDriver instance to avoid issues in parallel execution
     protected static WebDriver driver;
+    
     protected int passCount = 0, failCount = 0;
 
     @BeforeClass
@@ -26,6 +27,7 @@ public abstract class BaseTest implements IAutoConstant {
         if (sBrowser.equalsIgnoreCase("chrome")) {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
+            System.out.println("Chrome driver initialized");
             
         } else if (sBrowser.equalsIgnoreCase("firefox")) {
             WebDriverManager.firefoxdriver().setup();
@@ -39,17 +41,27 @@ public abstract class BaseTest implements IAutoConstant {
         
         driver.manage().window().maximize();
         System.out.println("Thread ID: " + Thread.currentThread().getId());
+        System.out.println("WebDriver initialized: " + (driver != null));
+
     }
 
     @BeforeMethod
-    // for regular Admission
-    //public void openApplication() {
-    //    driver.get(Admission_URL);
-    //}
-   public void openApplicationForm_Corporate() {
-       driver.get(Corporate_Admission_URL);
-   }
-
+    
+   //  for regular Admission
+   public void openApplication() {
+     driver.get(Admission_URL);
+     }
+    
+    //  for Corporate Admission
+//   public void openApplicationForm_Corporate() {
+//       driver.get(Corporate_Admission_URL);
+//   }
+    
+//For Summer Camp Admission
+//    public void openApplicationForm_Corporate() {
+//        driver.get(Summer_Camp_Admission);
+//    }
+    
     @AfterMethod
     public void handleTestResult(ITestResult res) {
         int status = res.getStatus();
@@ -67,7 +79,8 @@ public abstract class BaseTest implements IAutoConstant {
     @AfterClass
     public void closeBrowser() {
         if (driver != null) {
-          // driver.quit(); // Use quit() instead of close() to ensure the browser process is terminated
+          //driver.quit(); // Use quit() instead of close() to ensure the browser process is terminated
+          driver.close();
         }
     }
 
